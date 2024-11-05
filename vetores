@@ -47,3 +47,26 @@ let soma = 0;
   }
 console.log(soma);
 }
+let frutas = ["maçã","banana", "laraanja"]; {
+
+  console.log(frutas.includes("morango"));
+}
+ {
+  let linguas = ["JavaScript", "Python", "Java"];
+let posicao = linguas.indexOf(1);
+console.log(posicao);
+ }
+let numeros = [2, 4, 6];
+
+function setup() {
+  createCanvas(400, 200);
+
+  for (let i = 0; i < numeros.length; i++) {
+    numeros[i] = numeros[i] * 2;
+  }
+  console.log(numeros);
+}
+let esportes = ["futebol","basquete", "natação"]; {
+
+  console.log(esportes.includes("beisebol"));
+}
