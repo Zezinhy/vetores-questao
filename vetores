@@ -1,0 +1,41 @@
+
+
+let nomes = ["Ana", "Beatriz", "Carlos"];
+let contemCarlos = nomes.includes("Carlos");
+if (contemCarlos) {
+console.log(true);
+  
+}
+
+
+let numeros = [10, 20, 5, 30, 40];
+let posicao = numeros.indexOf(5);
+console.log(posicao);
+
+let vetor = ["maçã", "banana", "laranja"];
+console.log(vetor);
+
+
+let numeros = [5,10,15,20];
+let posicao = numeros.indexOf(15);
+console.log(posicao);
+
+let cores = ["azul", "verde", "vermelho"]; {
+
+  console.log(cores.includes("amarelo"));
+}
+ 
+let linguagens = ["JavaScript", "Python", "Java"];
+
+console.log(linguagens);
+
+function setup() {
+  let animais = ["gato", "cachorro", "pássaro", "cachorro"];
+  let indice = animais.indexOf("cachorro");
+  print(indice);
+}
+  
+let frutas = ["maçã","banana", "uva"]; {
+
+  console.log(frutas.includes("laranja"));
+}
